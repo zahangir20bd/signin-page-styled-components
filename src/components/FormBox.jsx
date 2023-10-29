@@ -6,6 +6,7 @@ import { inputData } from "../data";
 import LoginButton from "./LoginButton";
 import RememberForgot from "./RememberForgot";
 import AgreeTermsConditions from "./AgreeTermsConditions";
+import RefferSignUp from "./RefferSignUp";
 
 const FormBox = () => {
   const [formData, setFormData] = useState({
@@ -42,6 +43,7 @@ const FormBox = () => {
       <Wrapper>
         <LoginButton />
       </Wrapper>
+      <RefferSignUp />
     </Form>
   );
 };

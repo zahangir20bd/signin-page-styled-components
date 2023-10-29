@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const LoginBtn = styled.button`
   width: 60%;
-  height: 56px;
+  height: 40px;
   background-color: #0369a1;
   color: #fff;
   font-size: 15px;

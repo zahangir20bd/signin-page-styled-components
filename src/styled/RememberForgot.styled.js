@@ -11,6 +11,13 @@ export const ContentContainer = styled.section`
   text-size: 1rem;
 `;
 
+export const BlockDiv = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Wrap = styled.div`
   display: flex;
   align-items: center;
@@ -20,4 +27,8 @@ export const Wrap = styled.div`
 export const Button = styled.button`
   color: #f78719;
   text-decoration: none;
+`;
+
+export const SemiBold = styled.div`
+  font-weight: 600;
 `;
