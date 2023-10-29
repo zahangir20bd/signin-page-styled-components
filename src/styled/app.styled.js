@@ -52,6 +52,7 @@ export const LeftSide = styled.div`
 export const RightSide = styled.div`
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -62,19 +63,21 @@ export const RightSide = styled.div`
 `;
 
 export const Wrapper = styled.div`
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: between;
+  align-items: center;
 
-  /* TABLET */
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
+  //   /* TABLET */
+  //   @media only screen and (max-width: 768px) {
+  //     width: 100%;
+  //     justify-content: center;
+  //     align-items: center;
+  //   }
 
-  /* MOBILE */
-  @media only screen and (max-width: 460px) {
-    // padding: 10px;
-  }
+  //   /* MOBILE */
+  //   @media only screen and (max-width: 460px) {
+  //     // padding: 10px;
+  //   }
 `;

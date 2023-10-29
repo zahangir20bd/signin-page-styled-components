@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-  width: 540px;
+  width: 100%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ export const Form = styled.form`
   }
 `;
 export const Wrapper = styled.div`
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

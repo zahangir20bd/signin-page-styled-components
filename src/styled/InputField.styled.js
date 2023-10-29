@@ -5,8 +5,8 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 80%;
-  padding: 0px 10px;
+  width: 100%;
+  padding: 0px 20px;
 `;
 
 export const Error = styled.span`

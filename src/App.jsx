@@ -8,6 +8,7 @@ import {
 import img from "./assets/sign-in-image.png";
 import FormBox from "./components/FormBox";
 import { Heading } from "./styled/Heading.styled";
+import RememberForgot from "./components/RememberForgot";
 
 function App() {
   return (
@@ -17,10 +18,8 @@ function App() {
           <img id="login-image" src={img} alt="" />
         </LeftSide>
         <RightSide>
-          <Wrapper>
-            <Heading>Log In</Heading>
-            <FormBox />
-          </Wrapper>
+          <Heading>Log In</Heading>
+          <FormBox />
         </RightSide>
       </ParentWrapper>
     </Container>

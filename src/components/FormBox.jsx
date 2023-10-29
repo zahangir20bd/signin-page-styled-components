@@ -4,6 +4,8 @@ import { Form, Wrapper } from "../styled/Form.styled";
 import InputField from "./InputField";
 import { inputData } from "../data";
 import LoginButton from "./LoginButton";
+import RememberForgot from "./RememberForgot";
+import AgreeTermsConditions from "./AgreeTermsConditions";
 
 const FormBox = () => {
   const [formData, setFormData] = useState({
@@ -35,6 +37,8 @@ const FormBox = () => {
         );
       })}
 
+      <RememberForgot />
+      <AgreeTermsConditions />
       <Wrapper>
         <LoginButton />
       </Wrapper>
