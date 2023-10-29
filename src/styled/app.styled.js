@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import bgImg from "../assets/bg-image.avif";
+import Img from "../assets/sign-in-image.png";
 
 export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   background-image: url(${bgImg});
+  background-repeat: no-repeat;
 
   display: flex;
   justify-content: center;
@@ -17,27 +19,59 @@ export const ParentWrapper = styled.div`
   height: 90vh;
   background-color: #fff;
   display: flex;
+  justify-content: between;
+  align-items: center;
+  gap: 10px;
 
   /* Tablet */
   @media only screen and (max-width: 768px) {
+    width: 100%;
+    height: 100vh;
     flex-direction: column;
     overflow-y: scroll;
   }
 `;
 
-export const Wrapper = styled.div`
+export const LeftSide = styled.div`
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Tablet */
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 10px;
+  }
+`;
+
+export const RightSide = styled.div`
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Tablet */
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    padding: 10px;
+  }
+`;
+
+export const SignInImage = styled.img`
+src = ${Img}
+`;
+export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
 
   /* TABLET */
   @media only screen and (max-width: 768px) {
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
   }
 
   /* MOBILE */
