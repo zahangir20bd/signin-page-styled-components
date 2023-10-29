@@ -24,6 +24,7 @@ export const ParentWrapper = styled.div`
   display: flex;
   justify-content: between;
   align-items: center;
+  padding: 20px;
 
   border-radius: 20px;
 
@@ -32,6 +33,7 @@ export const ParentWrapper = styled.div`
     width: 100%;
     height: 100vh;
     flex-direction: column;
+    gap: 2rem;
     overflow-y: scroll;
     border-radius: 0px;
   }
@@ -55,6 +57,10 @@ export const RightSide = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 20px #ededed;
+  margin: 10px;
+  padding: 50px 10px;
+  border-radius: 20px;
 
   /* Tablet */
   @media only screen and (max-width: 768px) {
