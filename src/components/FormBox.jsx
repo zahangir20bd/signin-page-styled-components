@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Form, Wrapper, Terms } from "../styled/Form.styled";
+import { Form, Wrapper } from "../styled/Form.styled";
 
 import InputField from "./InputField";
 import { inputData } from "../data";

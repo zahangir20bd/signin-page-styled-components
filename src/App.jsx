@@ -1,11 +1,9 @@
 import {
   Container,
-  LearnCode,
   ParentWrapper,
   LeftSide,
   RightSide,
   Wrapper,
-  ContentWrapper,
 } from "./styled/app.styled";
 import img from "./assets/sign-in-image.png";
 import FormBox from "./components/FormBox";
